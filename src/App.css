@@ -1,0 +1,83 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.App {
+  text-align: center;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.edit-icon,
+.delete-icon,
+.status-icon {
+  cursor: pointer;
+}
+
+.Task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d0a1e2;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: large;
+}
+
+body {
+  background: #ebc4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #9337b8;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TaskWrapper {
+  background: whitesmoke;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 50em;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.TaskForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fa-trash,
+.faCircleCheck {
+  margin-left: 0.75rem !important;
+}
+
+.status-icon {
+  margin-left: 0.75rem !important;
+}
+
+.ant-btn-primary {
+  color: whitesmoke !important ;
+  background-color: #d0a1e2 !important;
+}
+.ant-btn-primary :hover {
+  color: whitesmoke !important ;
+  background-color: #d0a1e2 !important;
+  transition: none;
+}
