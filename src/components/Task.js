@@ -52,7 +52,7 @@ const Task = () => {
           className="bg-purple-400 flex justify-between items-center text-white px-5 py-2 rounded-lg mb-4 text-md"
         >
           <p className="text-lg">{search.task.title}</p>
-          <p className="text-sm italic text-gray-100 text-left">
+          <p className="text-sm italic text-gray-100">
             {search.task.description}
           </p>
           <div>
